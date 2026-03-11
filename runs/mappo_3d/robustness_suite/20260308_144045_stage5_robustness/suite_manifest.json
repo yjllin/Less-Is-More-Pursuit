@@ -1,0 +1,104 @@
+{
+  "suite_root": "D:\\PursuerEvaderGame\\Drones\\runs\\mappo_3d\\robustness_suite\\20260308_144045_stage5_robustness",
+  "runs_root": "runs\\mappo_3d\\default",
+  "config": null,
+  "stage_index": 4,
+  "episodes": 200,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "device": "auto",
+  "num_envs": 12,
+  "deterministic": false,
+  "max_passes": 8,
+  "enabled_steps": {
+    "speed_sweep": true,
+    "yaw_rate_sweep": true,
+    "observation_noise_sweep": true,
+    "action_delay_sweep": true
+  },
+  "speed_sweep": {
+    "subdir": "speed_sweep",
+    "baselines": [
+      "ours",
+      "b1_traditional_apf_pn",
+      "b2_euclidean_guidance",
+      "b3_full_obs_ippo"
+    ],
+    "speeds": [
+      7.0,
+      8.0,
+      8.5,
+      9.0,
+      9.5,
+      10.0
+    ]
+  },
+  "yaw_rate_sweep": {
+    "subdir": "yaw_rate_sweep",
+    "models": [
+      "ours",
+      "euclidean",
+      "apf"
+    ],
+    "yaw_rates": [
+      "0.2",
+      "0.4",
+      "0.6",
+      "0.8"
+    ]
+  },
+  "observation_noise_sweep": {
+    "subdir": "observation_noise_sweep",
+    "models": [
+      "ours",
+      "full_obs",
+      "euclidean"
+    ],
+    "noise_levels": [
+      "0.0",
+      "0.05",
+      "0.10",
+      "0.20"
+    ]
+  },
+  "action_delay_sweep": {
+    "subdir": "action_delay_sweep",
+    "models": [
+      "ours",
+      "full_obs",
+      "euclidean"
+    ],
+    "delay_steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "eval_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "skipped_eval_seeds": [
+      0,
+      1,
+      2
+    ],
+    "eval_to_model_seed": {
+      "3": 0,
+      "4": 1
+    }
+  }
+}

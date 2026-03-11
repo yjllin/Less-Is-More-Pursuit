@@ -1,0 +1,315 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Plane_5 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent1"
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Plane.Plane"'
+            StaticMeshImportVersion=1
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_3F8C76BE469D6CAEBDC47F82BF709939000000000100000001000000000000000000000001000000010000000000000000000000010000000001000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Flying/Meshes/BaseMaterial.BaseMaterial"'
+            CustomDepthStencilValue=21
+            RelativeScale3D=(X=300.000000,Y=300.000000,Z=1.000000)
+         End Object
+         Begin Object Name="StaticMeshComponent1"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Plane.Plane"'
+            StaticMeshImportVersion=1
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_3F8C76BE469D6CAEBDC47F82BF709939000000000100000001000000000000000000000001000000010000000000000000000000010000000001000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            bGenerateOverlapEvents=False
+            bRenderCustomDepth=True
+            CustomDepthStencilValue=21
+            BodyInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            CreationMethod=Instance
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Plane"
+         InstanceComponents(0)=StaticMeshComponent'"StaticMeshComponent1"'
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cube_2 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=164
+            RelativeLocation=(X=0.000000,Y=-15000.000000,Z=5000.000000)
+            RelativeScale3D=(X=300.000000,Y=1.000000,Z=100.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube"
+         FolderPath="wall"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cube2 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=164
+            RelativeLocation=(X=0.000000,Y=15000.000000,Z=5000.000000)
+            RelativeScale3D=(X=300.000000,Y=1.000000,Z=100.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube2"
+         FolderPath="wall"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cylinder_8 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cylinder.Cylinder"'
+            StaticMeshImportVersion=1
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_2D95915274B0A9B6BA6E2C8A3B1776A78000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=95
+            RelativeLocation=(X=6935.621094,Y=-10172.744141,Z=3500.000000)
+            RelativeScale3D=(X=20.000000,Y=20.000000,Z=70.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cylinder"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cylinder2_11 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cylinder.Cylinder"'
+            StaticMeshImportVersion=1
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_2D95915274B0A9B6BA6E2C8A3B1776A78000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=95
+            RelativeLocation=(X=6035.621094,Y=-1722.744141,Z=2300.000000)
+            RelativeScale3D=(X=20.000000,Y=20.000000,Z=46.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cylinder2"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cylinder3 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cylinder.Cylinder"'
+            StaticMeshImportVersion=1
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_2D95915274B0A9B6BA6E2C8A3B1776A78000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=95
+            RelativeLocation=(X=11839.683594,Y=-8906.462891,Z=3000.000000)
+            RelativeScale3D=(X=20.000000,Y=20.000000,Z=60.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cylinder3"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cylinder4 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cylinder.Cylinder"'
+            StaticMeshImportVersion=1
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_2D95915274B0A9B6BA6E2C8A3B1776A78000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=95
+            RelativeLocation=(X=9689.683594,Y=-3556.462891,Z=4000.000000)
+            RelativeScale3D=(X=20.000000,Y=20.000000,Z=80.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cylinder4"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cube7_27 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=164
+            RelativeLocation=(X=-3670.378906,Y=6982.115234,Z=3000.000000)
+            RelativeScale3D=(X=100.000000,Y=2.000000,Z=60.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube7"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cube8 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=164
+            RelativeLocation=(X=-3964.378906,Y=11627.255859,Z=1500.000000)
+            RelativeScale3D=(X=100.000000,Y=2.000000,Z=30.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube8"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cylinder8 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cylinder.Cylinder"'
+            StaticMeshImportVersion=1
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_2D95915274B0A9B6BA6E2C8A3B1776A78000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=95
+            RelativeLocation=(X=-9760.316406,Y=-10356.462891,Z=1500.000000)
+            RelativeScale3D=(X=20.000000,Y=20.000000,Z=30.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cylinder8"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cylinder10 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cylinder.Cylinder"'
+            StaticMeshImportVersion=1
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_2D95915274B0A9B6BA6E2C8A3B1776A78000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=95
+            RelativeLocation=(X=-2410.316406,Y=-5456.462891,Z=2000.000000)
+            RelativeScale3D=(X=20.000000,Y=20.000000,Z=40.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cylinder10"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cylinder11 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cylinder.Cylinder"'
+            StaticMeshImportVersion=1
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_2D95915274B0A9B6BA6E2C8A3B1776A78000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=95
+            RelativeLocation=(X=-3310.316406,Y=-11056.462891,Z=1800.000000)
+            RelativeScale3D=(X=20.000000,Y=20.000000,Z=36.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cylinder11"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cube9_35 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=164
+            RelativeLocation=(X=-6823.660156,Y=-7884.228516,Z=7000.000000)
+            RelativeScale3D=(X=50.000000,Y=50.000000,Z=5.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube9"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cube5_5 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=164
+            RelativeLocation=(X=10000.000000,Y=4500.000000,Z=5000.000000)
+            RelativeScale3D=(X=100.000008,Y=10.000000,Z=100.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube5"
+         FolderPath="Obstacles"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cube10_8 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=164
+            RelativeLocation=(X=15000.000000,Y=0.000000,Z=5000.000000)
+            RelativeScale3D=(X=1.000000,Y=300.000000,Z=100.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube10"
+         FolderPath="wall"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Cube11_10 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Game/Geometry/Meshes/CubeMaterial.CubeMaterial"'
+            CustomDepthStencilValue=164
+            RelativeLocation=(X=-15000.000000,Y=0.000000,Z=5000.000000)
+            RelativeScale3D=(X=1.000000,Y=300.000000,Z=100.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube11"
+         FolderPath="wall"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=roof Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_9CE2B6FB46754B699726C4AA1515F12E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_26D666F86459324BE77D4F6A1939C6698000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000020000000000803F0000803F0000803F0000004000000000050000004E6F6E650030000000803F0000803F000000000000004100000000000034420303030000000000000000LS0MNSzzzzzzzz0"
+            OverrideMaterials(0)=Material'"/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"'
+            CustomDepthStencilValue=187
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=10050.000000)
+            RelativeScale3D=(X=300.000000,Y=300.000000,Z=1.000000)
+            Mobility=Stationary
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bHidden=True
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="roof"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

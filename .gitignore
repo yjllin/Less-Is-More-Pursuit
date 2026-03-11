@@ -1,0 +1,66 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Local analysis and scratch outputs
+analysis/
+eval_topdown/
+eval_logs/
+
+# IDE / editor state
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Experiment outputs: keep the workspace local, publish curated assets elsewhere.
+runs/**
+
+# Optional whitelist if you decide to keep a minimal paper-facing subset in git.
+#!runs/**/policy.pt
+#!runs/**/config.json
+#!runs/**/config.yaml
+#!runs/**/metrics.jsonl
+#!runs/**/eval_stage5_episode_eval.jsonl
+#!runs/**/eval_stage5_episodes_eval.jsonl
+#!runs/**/suite_manifest.json
+#!runs/**/suite_status.json
+#!runs/**/*_summary.csv
+#!runs/**/*_summary.jsonl
+
+# Core assets that are required by the default config.
+!artifacts/
+artifacts/**
+!artifacts/level_occupancy.npy
+!artifacts/level_occupancy.json
+
+# Generated or debugging-only artifact exports.
+artifacts/*.ply
+artifacts/*episode*.json
+artifacts/*log*.json
+
+# External trackers / logs
+wandb/
+tensorboard/
+tb_logs/
+events.out.tfevents*
+*.log
+
+# Local environments and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+
